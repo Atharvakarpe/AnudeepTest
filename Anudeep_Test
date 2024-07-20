@@ -1,3 +1,9 @@
+/*"Write a Java program to simulate a simple shopping cart. The program should:
+
+Create an ArrayList to store the names of items added to the cart.
+Allow the user to add five items to the cart.
+Print out the list of items in the cart.
+*/
 package com.anudeep;
 import java.util.ArrayList;
 import java.util.Scanner;
