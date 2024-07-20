@@ -1,0 +1,28 @@
+package com.anudeep;
+import java.util.ArrayList;
+import java.util.Scanner;
+
+
+public class ShoppingCart {
+    public static void main(String[] args) {
+       
+        ArrayList<String> cart = new ArrayList<>();
+        Scanner scanner = new Scanner(System.in);
+
+        
+        System.out.println("Please enter the names of five items to add to your shopping cart:");
+        for (int i = 0; i < 5; i++) {
+            System.out.print("Enter item " + (i + 1) + ": ");
+            String item = scanner.nextLine();
+            cart.add(item);
+        }
+
+
+        System.out.println("\nItems in your shopping cart:");
+        for (String item : cart) {
+            System.out.println("-- " + item);
+        }
+
+        scanner.close();
+    }
+}
