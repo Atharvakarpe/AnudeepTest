@@ -22,7 +22,6 @@ public class ShoppingCart {
         for (String item : cart) {
             System.out.println("-- " + item);
         }
-
         scanner.close();
     }
 }
